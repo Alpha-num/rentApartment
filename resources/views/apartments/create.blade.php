@@ -23,8 +23,15 @@
                 <input type="text" placeholder="ex: 2 no. 10 udo udoma avenue" name="location" />
             </p>
             <p>
-                <label for="price">Enter Apartment location</label>
+                <label for="price">Enter Apartment price</label>
                 <input type="text" placeholder="ex: 10000" name="price" />
+            </p>
+            <p>
+                <label for="status">Publish as Available for rent?</label>
+                <select name="status">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
             </p>
             
             <p>Display image</p>
